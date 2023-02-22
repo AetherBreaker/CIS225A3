@@ -1,0 +1,2 @@
+they generally contain a description of the class and its purpose, occassionally also including some example usage. 
+Followed by a list of the classes constructors, and then a separate list of methods, and other important properties of the class.

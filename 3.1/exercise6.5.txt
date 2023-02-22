@@ -1,0 +1,2 @@
+Yes, it is called "length"
+its return type is int and it does not accept ANY parameters

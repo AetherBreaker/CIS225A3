@@ -1,0 +1,7 @@
+the first method tests if a match to the inputted string is found at the start of the current string
+comparing each character in each string until either reaching the end of the inputted string
+upon which it returns true, or until a mismatch is found, upon which it returns false.
+
+the second method does the same as the first, however it instead moves the "starting point"
+of the current string to an index position specified by the toffset parameter, before proceeding
+to perform the comparison.
