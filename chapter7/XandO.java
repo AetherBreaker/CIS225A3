@@ -56,10 +56,19 @@ public class XandO {
             { Status.EMPTY, Status.EMPTY, Status.EMPTY },
             { Status.EMPTY, Status.EMPTY, Status.EMPTY }
     };
+    // Storing some extra state information about the game board to speed up
+    // win checking
     private boolean[] unwinnable_lines = new boolean[] { false, false, false, false, false, false, false, false };
     private int turn_count = 0;
     private boolean finished = false;
 
+    /**
+     * Executes a players turn and checks if a win or draw has occurred
+     * it then prints the game board
+     * 
+     * @param x - game board x coordinate
+     * @param y - game board y coordinate
+     */
     public void move(int x, int y) {
         if (finished) {
             throw new IllegalStateException("Game is already finished");
